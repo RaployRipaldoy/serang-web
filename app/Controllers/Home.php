@@ -5,6 +5,10 @@ use App\Models\perlengkapanJalan;
 
 class Home extends BaseController
 {
+    protected $perlengkapanJalan;
+    protected $categories;
+    protected $conditions;
+
     public function __construct()
     {
         $this->perlengkapanJalan = new perlengkapanJalan();
@@ -35,40 +39,114 @@ class Home extends BaseController
 
         $builder = $this->perlengkapanJalan;
 
-        $tahunDipilih = $this->request->getGet('tahun');
+        $perbandinganDipilih = $this->request->getGet('perbandingan');
 
-        $query = $builder
-            ->select("jenis_perlengkapan, kondisi, COUNT(*) as total")
-            ->groupBy('jenis_perlengkapan, kondisi')
-            ->orderBy('kondisi', 'asc');
-
-        if ($tahunDipilih) {
-            $query->where("YEAR(terakhir_diupdate)", $tahunDipilih);
-        }
-
-        $dataTipe = $query->findAll();
-
+        // daftar tahun 
         $daftarTahun = $builder
             ->select("YEAR(terakhir_diupdate) as tahun")
             ->groupBy("YEAR(terakhir_diupdate)")
-            ->orderBy("tahun", "desc")
+            ->orderBy("tahun", "asc")
             ->findAll();
 
+        $tahunArray = array_column($daftarTahun, 'tahun');
 
-        $charts = [];
-        foreach ($dataTipe as $row) {
-            $charts[$row['jenis_perlengkapan']][] = [
-                'kondisi' => $row['kondisi'],
-                'total' => $row['total'],
-            ];
+        // perbandingan year-by-year
+        $daftarPerbandingan = [];
+        for ($i = 0; $i < count($tahunArray) - 1; $i++) {
+            $tahunSebelum = $tahunArray[$i];
+            $tahunSesudah = $tahunArray[$i + 1];
+            $daftarPerbandingan[] = $tahunSebelum . '-' . $tahunSesudah;
+        }
+
+        
+        if (!$perbandinganDipilih && !empty($daftarPerbandingan)) {
+            $perbandinganDipilih = end($daftarPerbandingan); 
+        }
+
+        $histogramData = [];
+
+        if ($perbandinganDipilih) {
+            $tahunRange = explode('-', $perbandinganDipilih);
+            $tahunSebelum = $tahunRange[0];
+            $tahunSesudah = $tahunRange[1];
+
+    
+            $dataSebelum = $builder
+                ->select("jenis_perlengkapan, kondisi, COUNT(*) as total")
+                ->where("YEAR(terakhir_diupdate)", $tahunSebelum)
+                ->groupBy('jenis_perlengkapan, kondisi')
+                ->findAll();
+
+            $dataSesudah = $builder
+                ->select("jenis_perlengkapan, kondisi, COUNT(*) as total")
+                ->where("YEAR(terakhir_diupdate)", $tahunSesudah)
+                ->groupBy('jenis_perlengkapan, kondisi')
+                ->findAll();
+
+      
+            $dataSebelumArray = [];
+            foreach ($dataSebelum as $item) {
+                $key = $item['jenis_perlengkapan'] . '_' . $item['kondisi'];
+                $dataSebelumArray[$key] = $item['total'];
+            }
+
+            $dataSesudahArray = [];
+            foreach ($dataSesudah as $item) {
+                $key = $item['jenis_perlengkapan'] . '_' . $item['kondisi'];
+                $dataSesudahArray[$key] = $item['total'];
+            }
+
+      
+            $semuaKombinasi = array_unique(array_merge(array_keys($dataSebelumArray), array_keys($dataSesudahArray)));
+
+            foreach ($semuaKombinasi as $kombinasi) {
+                $parts = explode('_', $kombinasi);
+                $jenis = $parts[0];
+                $kondisi = $parts[1];
+                
+                $totalSebelum = isset($dataSebelumArray[$kombinasi]) ? $dataSebelumArray[$kombinasi] : 0;
+                $totalSesudah = isset($dataSesudahArray[$kombinasi]) ? $dataSesudahArray[$kombinasi] : 0;
+                
+                $histogramData[] = [
+                    'jenis' => $jenis,
+                    'kondisi' => $kondisi,
+                    'label' => $jenis . ' (' . $kondisi . ')',
+                    'tahun_sebelum' => $tahunSebelum,
+                    'tahun_sesudah' => $tahunSesudah,
+                    'total_sebelum' => $totalSebelum,
+                    'total_sesudah' => $totalSesudah,
+                    'perubahan' => $totalSesudah - $totalSebelum
+                ];
+            }
+
+          
+            $totalKeseluruhanSebelum = 0;
+            $totalKeseluruhanSesudah = 0;
+            foreach ($histogramData as $item) {
+                $totalKeseluruhanSebelum += $item['total_sebelum'];
+                $totalKeseluruhanSesudah += $item['total_sesudah'];
+            }
+            
+            $perubahanTotal = $totalKeseluruhanSesudah - $totalKeseluruhanSebelum;
+            $persentasePerubahan = $totalKeseluruhanSebelum > 0 ? round(($perubahanTotal / $totalKeseluruhanSebelum) * 100, 1) : 0;
+        } else {
+  
+            $totalKeseluruhanSebelum = 0;
+            $totalKeseluruhanSesudah = 0;
+            $perubahanTotal = 0;
+            $persentasePerubahan = 0;
         }
 
         $data = [
             'judul' => 'Dashboard',
             'page' => 'v_dashboard',
-            'charts' => $charts,
-            'daftarTahun' => array_column($daftarTahun, 'tahun'),
-            'tahunDipilih' => $tahunDipilih,
+            'histogramData' => $histogramData,
+            'daftarPerbandingan' => $daftarPerbandingan,
+            'perbandinganDipilih' => $perbandinganDipilih,
+            'totalKeseluruhanSebelum' => $totalKeseluruhanSebelum,
+            'totalKeseluruhanSesudah' => $totalKeseluruhanSesudah,
+            'perubahanTotal' => $perubahanTotal,
+            'persentasePerubahan' => $persentasePerubahan,
         ];
 
         return view('v_template_user', $data);
@@ -562,36 +640,98 @@ class Home extends BaseController
 
     public function dataTahun()
     {
-        log_activity('Mengakses data tahun: ' . ($this->request->getGet('tahun') ?? 'semua tahun'));
-        
-        $tahun = $this->request->getGet('tahun');
+        $perbandinganDipilih = $this->request->getGet('perbandingan');
+        $builder = $this->perlengkapanJalan;
 
-        if (empty($tahun)) {
-            $data = $this->perlengkapanJalan
-            ->select('jenis_perlengkapan, kondisi, COUNT(*) as total')
-            ->groupBy('jenis_perlengkapan, kondisi')
-            ->orderBy('kondisi', 'asc')
-            ->findAll();
+        $histogramData = [];
+
+        if ($perbandinganDipilih) {
+            $tahunRange = explode('-', $perbandinganDipilih);
+            $tahunSebelum = $tahunRange[0];
+            $tahunSesudah = $tahunRange[1];
+
+            // Ambil data tahun sebelum dengan kondisi
+            $dataSebelum = $builder
+                ->select("jenis_perlengkapan, kondisi, COUNT(*) as total")
+                ->where("YEAR(terakhir_diupdate)", $tahunSebelum)
+                ->groupBy('jenis_perlengkapan, kondisi')
+                ->findAll();
+
+            // Ambil data tahun sesudah dengan kondisi
+            $dataSesudah = $builder
+                ->select("jenis_perlengkapan, kondisi, COUNT(*) as total")
+                ->where("YEAR(terakhir_diupdate)", $tahunSesudah)
+                ->groupBy('jenis_perlengkapan, kondisi')
+                ->findAll();
+
+            // Konversi ke array dengan jenis dan kondisi sebagai key
+            $dataSebelumArray = [];
+            foreach ($dataSebelum as $item) {
+                $key = $item['jenis_perlengkapan'] . '_' . $item['kondisi'];
+                $dataSebelumArray[$key] = $item['total'];
+            }
+
+            $dataSesudahArray = [];
+            foreach ($dataSesudah as $item) {
+                $key = $item['jenis_perlengkapan'] . '_' . $item['kondisi'];
+                $dataSesudahArray[$key] = $item['total'];
+            }
+
+            // Gabungkan semua kombinasi jenis dan kondisi
+            $semuaKombinasi = array_unique(array_merge(array_keys($dataSebelumArray), array_keys($dataSesudahArray)));
+
+            foreach ($semuaKombinasi as $kombinasi) {
+                $parts = explode('_', $kombinasi);
+                $jenis = $parts[0];
+                $kondisi = $parts[1];
+                
+                $totalSebelum = isset($dataSebelumArray[$kombinasi]) ? $dataSebelumArray[$kombinasi] : 0;
+                $totalSesudah = isset($dataSesudahArray[$kombinasi]) ? $dataSesudahArray[$kombinasi] : 0;
+                
+                $histogramData[] = [
+                    'jenis' => $jenis,
+                    'kondisi' => $kondisi,
+                    'label' => $jenis . ' (' . $kondisi . ')',
+                    'tahun_sebelum' => $tahunSebelum,
+                    'tahun_sesudah' => $tahunSesudah,
+                    'total_sebelum' => $totalSebelum,
+                    'total_sesudah' => $totalSesudah,
+                    'perubahan' => $totalSesudah - $totalSebelum
+                ];
+            }
+
+            // Hitung total keseluruhan untuk AJAX response
+            $totalKeseluruhanSebelum = 0;
+            $totalKeseluruhanSesudah = 0;
+            foreach ($histogramData as $item) {
+                $totalKeseluruhanSebelum += $item['total_sebelum'];
+                $totalKeseluruhanSesudah += $item['total_sesudah'];
+            }
+            
+            $perubahanTotal = $totalKeseluruhanSesudah - $totalKeseluruhanSebelum;
+            $persentasePerubahan = $totalKeseluruhanSebelum > 0 ? round(($perubahanTotal / $totalKeseluruhanSebelum) * 100, 1) : 0;
+
+            $response = [
+                'data' => $histogramData,
+                'summary' => [
+                    'totalSebelum' => $totalKeseluruhanSebelum,
+                    'totalSesudah' => $totalKeseluruhanSesudah,
+                    'perubahan' => $perubahanTotal,
+                    'persentase' => $persentasePerubahan
+                ]
+            ];
         } else {
-            $data = $this->perlengkapanJalan
-            ->select('jenis_perlengkapan, kondisi, COUNT(*) as total')
-            ->where('YEAR(terakhir_diupdate)', $tahun)
-            ->groupBy('jenis_perlengkapan, kondisi')
-            ->orderBy('kondisi', 'asc')
-            ->findAll();
-        }
-
-        $formatted = [];
-        foreach ($data as $item) {
-            $jenis = $item['jenis_perlengkapan'];
-            if (!isset($formatted[$jenis]))
-                $formatted[$jenis] = [];
-            $formatted[$jenis][] = [
-                'kondisi' => $item['kondisi'],
-                'total' => $item['total']
+            $response = [
+                'data' => [],
+                'summary' => [
+                    'totalSebelum' => 0,
+                    'totalSesudah' => 0,
+                    'perubahan' => 0,
+                    'persentase' => 0
+                ]
             ];
         }
 
-        return $this->response->setJSON($formatted);
+        return $this->response->setJSON($response);
     }
 }
