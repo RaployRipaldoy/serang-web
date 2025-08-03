@@ -1,0 +1,742 @@
+DEBUG - 2025-05-26 01:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 01:55:27 --> ErrorException: Undefined property: App\Controllers\DataPengadaan::$pegadaanJalan
+[Method: GET, Route: DataPengadaan/getPengadaanByPerlengkapanAjax]
+in APPPATH/Controllers/DataPengadaan.php on line 174.
+ 1 APPPATH/Controllers/DataPengadaan.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPengadaan::$pegadaanJalan', '/var/www/webgis-serang/app/Controllers/DataPengadaan.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPengadaan->getPengadaanByPerlengkapan()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPengadaan))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 01:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 01:55:29 --> ErrorException: Undefined property: App\Controllers\DataPengadaan::$pegadaanJalan
+[Method: GET, Route: DataPengadaan/getPengadaanByPerlengkapanAjax]
+in APPPATH/Controllers/DataPengadaan.php on line 174.
+ 1 APPPATH/Controllers/DataPengadaan.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPengadaan::$pegadaanJalan', '/var/www/webgis-serang/app/Controllers/DataPengadaan.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPengadaan->getPengadaanByPerlengkapan()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPengadaan))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 01:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 01:56:14 --> ErrorException: Undefined property: App\Controllers\DataPengadaan::$pegadaanJalan
+[Method: GET, Route: DataPengadaan/getPengadaanByPerlengkapanAjax]
+in APPPATH/Controllers/DataPengadaan.php on line 174.
+ 1 APPPATH/Controllers/DataPengadaan.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPengadaan::$pegadaanJalan', '/var/www/webgis-serang/app/Controllers/DataPengadaan.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPengadaan->getPengadaanByPerlengkapan()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPengadaan))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 01:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 01:56:18 --> ErrorException: Undefined property: App\Controllers\DataPengadaan::$pegadaanJalan
+[Method: GET, Route: DataPengadaan/getPengadaanByPerlengkapanAjax]
+in APPPATH/Controllers/DataPengadaan.php on line 174.
+ 1 APPPATH/Controllers/DataPengadaan.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPengadaan::$pegadaanJalan', '/var/www/webgis-serang/app/Controllers/DataPengadaan.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPengadaan->getPengadaanByPerlengkapan()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPengadaan))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 01:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 01:56:20 --> ErrorException: Undefined property: App\Controllers\DataPengadaan::$pegadaanJalan
+[Method: GET, Route: DataPengadaan/getPengadaanByPerlengkapanAjax]
+in APPPATH/Controllers/DataPengadaan.php on line 174.
+ 1 APPPATH/Controllers/DataPengadaan.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataPengadaan::$pegadaanJalan', '/var/www/webgis-serang/app/Controllers/DataPengadaan.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPengadaan->getPengadaanByPerlengkapan()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPengadaan))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 01:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 01:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-26 02:17:56 --> mysqli_sql_exception: Unknown column 'pengadaan_id' in 'field list' in /var/www/webgis-serang/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /var/www/webgis-serang/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 /var/www/webgis-serang/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /var/www/webgis-serang/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /var/www/webgis-serang/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /var/www/webgis-serang/app/Models/perlengkapanJalan.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/webgis-serang/app/Controllers/DataPerlengkapan.php(153): App\Models\perlengkapanJalan->insertData(Array)
+#6 /var/www/webgis-serang/system/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->insertData()
+#7 /var/www/webgis-serang/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+#8 /var/www/webgis-serang/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/webgis-serang/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /var/www/webgis-serang/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /var/www/webgis-serang/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-05-26 02:17:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengadaan_id' in 'field list'
+[Method: POST, Route: DataPerlengkapan/insertData]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (:pengadaan_id:, :nama_perlengkapan:, :jenis_perlengkapan:, :lokasi_jalan:, :latitude:, :longitude:, :terakhir_diupdate:, :diupdate_oleh:, :keterangan:, :foto_perlengkapan:, :kondisi:)', [...], false)
+ 2 APPPATH/Models/perlengkapanJalan.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/DataPerlengkapan.php(153): App\Models\perlengkapanJalan->insertData([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->insertData()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 02:17:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pengadaan_id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (\'3\', \'sda\', \'APILL\', \'dsa\', \'-6.0712556456614974\', \'106.21997556016038\', \'2025-05-26\', \'sdsa\', \'das\', \'1748200676_d65b07c50d58c3ad1492.png\', \'Rencana\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (\'3\', \'sda\', \'APILL\', \'dsa\', \'-6.0712556456614974\', \'106.21997556016038\', \'2025-05-26\', \'sdsa\', \'das\', \'1748200676_d65b07c50d58c3ad1492.png\', \'Rencana\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (:pengadaan_id:, :nama_perlengkapan:, :jenis_perlengkapan:, :lokasi_jalan:, :latitude:, :longitude:, :terakhir_diupdate:, :diupdate_oleh:, :keterangan:, :foto_perlengkapan:, :kondisi:)', [...], false)
+ 4 APPPATH/Models/perlengkapanJalan.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/DataPerlengkapan.php(153): App\Models\perlengkapanJalan->insertData([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->insertData()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-26 02:17:56 --> [Caused by] mysqli_sql_exception: Unknown column 'pengadaan_id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (\'3\', \'sda\', \'APILL\', \'dsa\', \'-6.0712556456614974\', \'106.21997556016038\', \'2025-05-26\', \'sdsa\', \'das\', \'1748200676_d65b07c50d58c3ad1492.png\', \'Rencana\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (\'3\', \'sda\', \'APILL\', \'dsa\', \'-6.0712556456614974\', \'106.21997556016038\', \'2025-05-26\', \'sdsa\', \'das\', \'1748200676_d65b07c50d58c3ad1492.png\', \'Rencana\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (\'3\', \'sda\', \'APILL\', \'dsa\', \'-6.0712556456614974\', \'106.21997556016038\', \'2025-05-26\', \'sdsa\', \'das\', \'1748200676_d65b07c50d58c3ad1492.png\', \'Rencana\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perlengkapan_jln` (`pengadaan_id`, `nama_perlengkapan`, `jenis_perlengkapan`, `lokasi_jalan`, `latitude`, `longitude`, `terakhir_diupdate`, `diupdate_oleh`, `keterangan`, `foto_perlengkapan`, `kondisi`) VALUES (:pengadaan_id:, :nama_perlengkapan:, :jenis_perlengkapan:, :lokasi_jalan:, :latitude:, :longitude:, :terakhir_diupdate:, :diupdate_oleh:, :keterangan:, :foto_perlengkapan:, :kondisi:)', [...], false)
+ 5 APPPATH/Models/perlengkapanJalan.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/DataPerlengkapan.php(153): App\Models\perlengkapanJalan->insertData([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->insertData()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 02:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 02:39:56 --> ErrorException: Undefined variable $perlengkapanList
+[Method: GET, Route: DataPerlengkapan/editData/790]
+in APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php on line 47.
+ 1 APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $perlengkapanList', '/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php', 47)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('perlengkapan/v_edit_data_perlengkapan', [], true)
+ 5 APPPATH/Views/v_template_user.php(366): view('perlengkapan/v_edit_data_perlengkapan')
+ 6 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/v_template_user.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('v_template_user', [], true)
+ 9 APPPATH/Controllers/DataPerlengkapan.php(184): view('v_template_user', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->editData('790')
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 02:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 02:41:16 --> ErrorException: Undefined variable $pengadaan
+[Method: GET, Route: DataPerlengkapan/editData/790]
+in APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php on line 46.
+ 1 APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengadaan', '/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('perlengkapan/v_edit_data_perlengkapan', [], true)
+ 5 APPPATH/Views/v_template_user.php(366): view('perlengkapan/v_edit_data_perlengkapan')
+ 6 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/v_template_user.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('v_template_user', [], true)
+ 9 APPPATH/Controllers/DataPerlengkapan.php(184): view('v_template_user', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->editData('790')
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 02:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 02:41:43 --> ErrorException: Attempt to read property "nama_perlengkapan_id" on array
+[Method: GET, Route: DataPerlengkapan/editData/790]
+in APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php on line 46.
+ 1 APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_perlengkapan_id" on array', '/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('perlengkapan/v_edit_data_perlengkapan', [], true)
+ 5 APPPATH/Views/v_template_user.php(366): view('perlengkapan/v_edit_data_perlengkapan')
+ 6 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/v_template_user.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('v_template_user', [], true)
+ 9 APPPATH/Controllers/DataPerlengkapan.php(184): view('v_template_user', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->editData('790')
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 02:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 02:41:51 --> ErrorException: Attempt to read property "nama_perlengkapan" on array
+[Method: GET, Route: DataPerlengkapan/editData/790]
+in APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php on line 46.
+ 1 APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_perlengkapan" on array', '/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('perlengkapan/v_edit_data_perlengkapan', [], true)
+ 5 APPPATH/Views/v_template_user.php(366): view('perlengkapan/v_edit_data_perlengkapan')
+ 6 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/v_template_user.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('v_template_user', [], true)
+ 9 APPPATH/Controllers/DataPerlengkapan.php(184): view('v_template_user', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->editData('790')
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 02:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 02:50:51 --> ErrorException: Undefined array key "pengaduan_id"
+[Method: GET, Route: DataPerlengkapan/editData/790]
+in APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php on line 43.
+ 1 APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pengaduan_id"', '/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php', 43)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('perlengkapan/v_edit_data_perlengkapan', [], true)
+ 5 APPPATH/Views/v_template_user.php(366): view('perlengkapan/v_edit_data_perlengkapan')
+ 6 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/v_template_user.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('v_template_user', [], true)
+ 9 APPPATH/Controllers/DataPerlengkapan.php(184): view('v_template_user', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->editData('790')
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 02:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-26 02:51:55 --> ErrorException: Undefined array key "pengaduan_id"
+[Method: GET, Route: DataPerlengkapan/editData/790]
+in APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php on line 44.
+ 1 APPPATH/Views/perlengkapan/v_edit_data_perlengkapan.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pengaduan_id"', '/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php', 44)
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/perlengkapan/v_edit_data_perlengkapan.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('perlengkapan/v_edit_data_perlengkapan', [], true)
+ 5 APPPATH/Views/v_template_user.php(366): view('perlengkapan/v_edit_data_perlengkapan')
+ 6 SYSTEMPATH/View/View.php(234): include('/var/www/webgis-serang/app/Views/v_template_user.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('v_template_user', [], true)
+ 9 APPPATH/Controllers/DataPerlengkapan.php(184): view('v_template_user', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\DataPerlengkapan->editData('790')
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataPerlengkapan))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 02:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 02:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 06:47:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 06:47:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 13:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 06:47:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPengadaan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPengadaan.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPengadaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 13:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 06:53:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 06:53:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 13:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 06:53:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPengadaan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPengadaan.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPengadaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 13:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:10:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:10:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:10:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPengadaan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPengadaan.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPengadaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:13:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$perlengkapanJalan is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:13:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$categories is deprecated in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:13:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$conditions is deprecated in APPPATH/Controllers/Home.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 11:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:13:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$perlengkapanJalan is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:13:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$categories is deprecated in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:13:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$conditions is deprecated in APPPATH/Controllers/Home.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:13:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPemeliharaan::$pemeliharaanJalan is deprecated in APPPATH/Controllers/DataPemeliharaan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPemeliharaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:13:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPemeliharaan::$pemeliharaanJalan is deprecated in APPPATH/Controllers/DataPemeliharaan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPemeliharaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 11:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:14:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 11:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:20:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:20:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:20:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:21:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:21:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:21:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:21:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:21:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPemeliharaan::$pemeliharaanJalan is deprecated in APPPATH/Controllers/DataPemeliharaan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPemeliharaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:23:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:23:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:23:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:23:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:24:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:24:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 18:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:24:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$perlengkapanJalan is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:24:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$categories is deprecated in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:24:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$conditions is deprecated in APPPATH/Controllers/Home.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$perlengkapanJalan is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$categories is deprecated in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$conditions is deprecated in APPPATH/Controllers/Home.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 11:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:25:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$perlengkapanJalan is deprecated in APPPATH/Controllers/Home.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:25:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$categories is deprecated in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:25:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$conditions is deprecated in APPPATH/Controllers/Home.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:25:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:25:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:25:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:25:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:26:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:26:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-26 11:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:26:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:26:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:26:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:26:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:26:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPemeliharaan::$pemeliharaanJalan is deprecated in APPPATH/Controllers/DataPemeliharaan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPemeliharaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-26 11:27:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPemeliharaan::$pemeliharaanJalan is deprecated in APPPATH/Controllers/DataPemeliharaan.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPemeliharaan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:28:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$perlengkapanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-26 11:28:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataPerlengkapan::$pengadaanJalan is deprecated in APPPATH/Controllers/DataPerlengkapan.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\DataPerlengkapan->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-26 18:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

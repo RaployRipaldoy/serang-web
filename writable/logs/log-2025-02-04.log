@@ -1,0 +1,71 @@
+CRITICAL - 2025-02-04 05:59:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_template.php"
+[Method: GET, Route: Home/apill_eksisting]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('v_template', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->apill_eksisting()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-04 21:00:44 --> Error: Call to undefined function form_open()
+[Method: GET, Route: Home/loginForm]
+in APPPATH/Views/v_login.php on line 38.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('v_login', [], true)
+ 4 APPPATH/Controllers/Home.php(355): view('v_login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->loginForm()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-04 21:03:22 --> ReflectionException: Class "App\Controllers\AuthController" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH/Commands/Utilities/Routes/ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH/Commands/Utilities/Routes/ControllerMethodReader.php(40): ReflectionClass->__construct()
+ 2 SYSTEMPATH/Commands/Utilities/Routes/AutoRouteCollector.php(41): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read()
+ 3 SYSTEMPATH/Commands/Utilities/Routes.php(165): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH/CLI/Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run()
+ 5 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+ 6 SYSTEMPATH/Boot.php(360): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH/Boot.php(104): CodeIgniter\Boot::runCommand()
+ 8 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark()
+CRITICAL - 2025-02-04 21:03:24 --> ReflectionException: Class "App\Controllers\AuthController" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH/Commands/Utilities/Routes/ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH/Commands/Utilities/Routes/ControllerMethodReader.php(40): ReflectionClass->__construct()
+ 2 SYSTEMPATH/Commands/Utilities/Routes/AutoRouteCollector.php(41): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read()
+ 3 SYSTEMPATH/Commands/Utilities/Routes.php(165): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH/CLI/Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run()
+ 5 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CLI\Commands->run()
+ 6 SYSTEMPATH/Boot.php(360): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH/Boot.php(104): CodeIgniter\Boot::runCommand()
+ 8 ROOTPATH/spark(84): CodeIgniter\Boot::bootSpark()
+DEBUG - 2025-02-04 21:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-04 21:04:18 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: auth/loginProcess]
+in APPPATH/Controllers/Auth.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->loginProcess()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-04 21:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-04 21:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
