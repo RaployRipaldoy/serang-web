@@ -49,6 +49,7 @@ class CreateJenisPerlengkapan extends Migration
 
     public function down()
     {
+        
         $this->forge->dropTable('tb_jenis_perlengkapan', true);
     }
 }

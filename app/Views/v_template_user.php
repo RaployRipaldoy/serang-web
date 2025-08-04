@@ -150,6 +150,30 @@
 
                     <hr class="sidebar-divider">
 
+                    <!-- Divider -->
+                    <div class="sidebar-heading">
+                        Master Data
+                    </div>
+
+                    <!-- Nav Item - Master Data -->
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMasterData"
+                            aria-expanded="true" aria-controls="collapseMasterData">
+                            <!-- <i class="fas fa-fw fa-database"></i> -->
+                            <span>Master Data</span>
+                        </a>
+                        <div id="collapseMasterData" class="collapse" aria-labelledby="headingMasterData"
+                            data-parent="#accordionSidebar">
+                            <div class="bg-white py-2 collapse-inner rounded">
+                                <a class="collapse-item text-wrap" href="<?= base_url('DataJenisPerlengkapan') ?>">
+                                    Jenis Perlengkapan
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <hr class="sidebar-divider">
+
                     <div class="sidebar-heading">
                         Laporan Masyarakat
                     </div>
